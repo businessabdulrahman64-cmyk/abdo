@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { AnimatePresence, motion, useMotionValueEvent, useScroll } from 'motion/react'
-import { ArrowUpRight } from 'lucide-react'
+import { ArrowUpRight, MessageCircle } from 'lucide-react'
 import { nav, site } from '@/data/site'
 import { cn } from '@/lib/utils'
 
@@ -67,6 +67,16 @@ export function Navbar() {
           </ul>
 
           <div className="flex items-center gap-3">
+            <a
+              href={site.links.whatsapp}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Chat on WhatsApp"
+              className="hidden items-center gap-2 rounded-sm border border-line px-3.5 py-2 font-mono text-[11px] uppercase tracking-[0.12em] text-muted-foreground transition-colors hover:border-signal hover:text-signal sm:inline-flex"
+            >
+              <MessageCircle className="size-3.5" aria-hidden />
+              WhatsApp
+            </a>
             <Link
               href="/#contact"
               className={cn(
