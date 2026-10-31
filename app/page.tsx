@@ -8,6 +8,7 @@ import { Technology } from '@/components/site/technology'
 import { About } from '@/components/site/about'
 import { Contact } from '@/components/site/contact'
 import { Footer } from '@/components/site/footer'
+import { WhatsAppFloat } from '@/components/site/whatsapp-float'
 import { site } from '@/data/site'
 
 export default function HomePage() {
@@ -35,6 +36,7 @@ export default function HomePage() {
         <Contact />
       </main>
       <Footer />
+      <WhatsAppFloat />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
     </>
   )

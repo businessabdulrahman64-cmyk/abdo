@@ -8,9 +8,14 @@ export const site = {
    * Only real links are rendered. Leave a value empty to hide it.
    */
   links: {
-    email: '',
-    linkedin: '',
-    github: '',
+    whatsapp: 'https://wa.me/201276886701',
+    whatsappDisplay: '+20 127 688 6701',
+    email: 'businessabdulrahman64@gmail.com',
+    instagram: 'https://www.instagram.com/businessabdulrahman64/',
+    instagramDisplay: '@businessabdulrahman64',
+    linkedin: 'https://www.linkedin.com/in/abdulrahman-business-a6807a434/',
+    facebook: 'https://www.facebook.com/share/1UokJXhsDd/',
+    portfolio: 'https://abdulrahmanlabs.vercel.app/',
   },
 }
 
