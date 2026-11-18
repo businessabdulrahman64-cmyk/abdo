@@ -10,7 +10,7 @@ export const site = {
   links: {
     whatsapp: 'https://wa.me/201276886701',
     whatsappDisplay: '+20 127 688 6701',
-    email: 'businessabdulrahman64@gmail.com',
+    email: 'abdolife983@gmail.com',
     instagram: 'https://www.instagram.com/businessabdulrahman64/',
     instagramDisplay: '@businessabdulrahman64',
     linkedin: 'https://www.linkedin.com/in/abdulrahman-business-a6807a434/',

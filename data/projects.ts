@@ -188,6 +188,35 @@ export const projects: Project[] = [
       },
     ],
   },
+  {
+    slug: 'maison-five-sage',
+    title: 'MAISON',
+    category: 'Restaurant · Hospitality · Website',
+    description:
+      'A refined digital home for Maison, a West Village restaurant centered on season-led cooking, warm hospitality, and a little Parisian spirit.',
+    technologies: ['Web Design', 'Responsive Development', 'Frontend'],
+    image: '/projects/maison-five-sage.png',
+    imageAlt: 'Maison restaurant website with an editorial headline over a candlelit dining scene.',
+    liveUrl: 'https://maison-five-sage.vercel.app/',
+    featured: true,
+    layout: 'wide',
+    sections: [
+      {
+        index: '01',
+        title: 'Overview',
+        paragraphs: [
+          'Maison is a restaurant website for a neighborhood dining room in New York’s West Village. The experience pairs seasonal food and warm hospitality with an editorial visual identity.',
+        ],
+      },
+      {
+        index: '02',
+        title: 'Experience',
+        paragraphs: [
+          'The landing page introduces the restaurant through immersive food photography and a distinctive serif headline, then guides visitors through the story, menu, space, and table-finding experience.',
+        ],
+      },
+    ],
+  },
 ]
 
 export const featuredProjects = projects.filter((p) => p.featured)
